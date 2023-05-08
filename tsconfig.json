@@ -6,6 +6,7 @@
 		"module": "ESNext",
 		"moduleResolution": "Node",
 		"noImplicitAny": false,
+		"outDir": "./build",
 		"strict": true
 	},
 	"include": [ "./src/*", "./utils/*"],

@@ -16,7 +16,12 @@ Files:
 - README.md
 
 
-
+Planned features:
+Create a cli
+allow user to determine package manager
+set NPM, yarnrc, or pnpm version, etc. 
+generate package.json and install the following devDeps
+    Also could run a generic setup for NextJs, Vite, React, RN? 
 yarn add -D
 
 npm i --save-dev

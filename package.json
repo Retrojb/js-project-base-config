@@ -1,0 +1,32 @@
+{
+  "name": "retro-cli-plugin",
+  "version": "0.1.0",
+  "description": "CLI tools for projects",
+  "main": "index.ts",
+  "scripts": {
+	  "test": "echo \"Error: no test specified\" && exit 1",
+	  "lint": "eslint '**/*.{js,ts}' --fix",
+	  "prettier": "prettier --write ."
+  },
+  "keywords": [
+    "CLI",
+    "tools",
+    "plugin"
+  ],
+  "author": "retrojb",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.1.0",
+    "@types/yargs": "17.0.24",
+    "@typescript-eslint/eslint-plugin": "5.59.2",
+    "@typescript-eslint/parser": "5.59.2",
+    "audit-ci": "6.6.1",
+    "eslint": "8.40.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.8",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4",
+    "yargs": "17.7.2"
+  }
+}
